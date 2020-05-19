@@ -1,3 +1,13 @@
-x=int(input("ENTER THE VALUE OF X"))
-for x in range(0,20):
-  print(x)
+https://www.linkedin.com/in/mohammad-taukir-ansari-734008179
+
+num = int(input("Enter the number upto which the Fibonacci series is to be found: "))
+a = 0
+b = 1
+print("The Fibonacci series upto", num, "th number is as follows:")
+for i in range(num-1):
+    print(a, end=", ")
+    c = a + b
+    a = b
+    b = c
+print(a)
+© 2020 GitHub, Inc.
